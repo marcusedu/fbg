@@ -7,8 +7,8 @@
     android:layout_height="match_parent"
     tools:context="games.fgb.app.MainActivity">
 
-    <TextView
-        android:id="@+id/message"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mainViewPager"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/navigation"
